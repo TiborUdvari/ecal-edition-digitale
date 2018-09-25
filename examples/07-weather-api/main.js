@@ -1,7 +1,3 @@
-
-// Custom events for time
-// Do not use vars names var t, pt or loop
-
 /*****************************
 * Get DOM element references
 *****************************/
