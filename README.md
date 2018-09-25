@@ -4,6 +4,7 @@ Edition digitale
 Tools
 ---
 * [glitch.com](https://glitch.com) Create and remix web apps quickly
+* [Socket.io](https://socket.io/) Simplified websocket communication
 * [Johnny Five](http://johnny-five.io/) Hardware to javascript communication
 
 External examples
