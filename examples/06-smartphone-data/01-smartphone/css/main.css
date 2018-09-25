@@ -1,0 +1,28 @@
+html {
+	font-family: Helvetica;
+	overflow: hidden;
+	font-size: 24px;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+input {
+	width: 10rem;
+	font-size: 1rem;
+	background-color: white;
+	border: 1px solid gray;
+	padding: 0.2rem;
+	color: black;
+}
+
+button {
+	width: 10rem;
+	font-size: 1rem;
+	background-color: white;
+	border: 1px solid black;
+	padding: 0.2rem;
+}
+
+

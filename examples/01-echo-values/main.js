@@ -17,8 +17,3 @@ socket.on("echo-callback", function(data) {
 	console.log("Received " + JSON.stringify(data) + " from server");
 	elResult.textContent = data.data;
 });
-
-// Example receive data
-socket.on('hi', (d) => {
-  	console.log("Got message !!!");
-});
