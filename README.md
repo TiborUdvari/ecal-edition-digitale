@@ -1,6 +1,10 @@
 Edition digitale
 ===
 
+Links
+---
+* [ECAL echo server](https://glitch.com/~socket-io-server) echoes / resends all messages to everybody listening
+
 Tools
 ---
 * [glitch.com](https://glitch.com) Create and remix web apps quickly
@@ -8,6 +12,7 @@ Tools
 * [Johnny Five](http://johnny-five.io/) Hardware to javascript communication
 
 External examples
+---
 * [Flickr API example](https://glitch.com/~flickr-api-mashup)
 * [Super simple webcam example](https://webcam.glitch.me/) 
 
