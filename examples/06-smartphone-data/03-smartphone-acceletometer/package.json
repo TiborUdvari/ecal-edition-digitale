@@ -1,0 +1,15 @@
+{
+  "name": "01-smartphone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gyronorm": "^2.0.6",
+    "socket.io-client": "^2.1.1"
+  }
+}
