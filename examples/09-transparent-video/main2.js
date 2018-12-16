@@ -3,18 +3,29 @@ var serverAddress = "https://socket-io-server.glitch.me";
 var socket = io(serverAddress);
 
 socket.on("connect", function() {
-	console.log("connected")
+	//console.log("connected")
 })
+
+var cd = 0; 
+var pd = 0;
 
 socket.on("distance", function(data) {
 	console.log(data);
+
+	// Handle socket events
+	const smallDist = 300;  // 30 cm
+	const mediumDist = 500; // 50 cm
+	const longDist = 1000;  // 1   m
+
+	cd = data;
+
+	pd = cd;
 });
 
 const setup = function() {
 	this.segment = 0;
 	this.pt = 0;
 	this.segmentLoop = false;
-
 	this.draw();
 }
 
@@ -156,6 +167,7 @@ document.addEventListener('distance', e => {
 			if (distCategory == 3) {
 				state = State.CalWeek;
 				back.playSegment(3, false); // transition
+
 				back.onSegmentEnded = () => {
 					back.playSegment(4);
 					back.onSegmentEnded = null;

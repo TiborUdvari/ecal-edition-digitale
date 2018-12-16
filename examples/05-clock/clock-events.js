@@ -28,9 +28,9 @@ var t = new Date();
 function loop(){
   t = new Date();
 
-  var h = t.getHours();
-  var m = t.getMinutes();
-  var s = t.getSeconds();
+  let h = t.getHours();
+  let m = t.getMinutes();
+  let s = t.getSeconds();
 
   if (s !== pt.getSeconds()) {
     var evt = new CustomEvent('new_s', { detail: {

@@ -1,0 +1,40 @@
+:root {
+  --debug-size: 1vw;
+}
+
+body {
+	margin: 0px;
+	font-family: Helvetica;
+	overflow: hidden;
+	background-color: black;
+}
+
+video {
+	width: 100%;
+	object-fit: fill;
+	height: 100vh;
+	transform-origin: 40% 40%;
+	background-blend-mode: multiply;
+
+}
+
+#clock {
+	position: absolute;
+	font-size: 5vw;
+	left: 2vw;
+	bottom: 1vw;
+  	mix-blend-mode: overlay;
+	color: rgba(255, 255, 255, 0.75);
+	z-index: 1;
+}
+
+#debug {
+	background-color: red;
+	width: var(--debug-size);
+	height: var(--debug-size);
+	z-index: 1;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	border-radius: calc(var(--debug-size) / 2);
+}
