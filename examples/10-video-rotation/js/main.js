@@ -120,7 +120,7 @@ function draw() {
 		elVideo.currentTime = parseFloat(vidTime);
 		let degrees = 360 * mPct;
 
-		elVideo.style.transform = `rotate(${degrees}deg)`;
+		//elVideo.style.transform = `rotate(${degrees}deg)`;
 	}
 
 	requestAnimationFrame(draw);
